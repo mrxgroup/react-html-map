@@ -1,6 +1,6 @@
 import React, { createElement, FC, Fragment, ReactNode, useCallback } from 'react';
 import htmlParser, { Options } from 'react-html-parser';
-import { DomElement } from 'htmlparser2';
+import { DomElement } from 'domhandler';
 
 export interface Props extends Pick<Options, 'decodeEntities'> {
     children: TagMap;
